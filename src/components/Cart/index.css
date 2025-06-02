@@ -1,0 +1,97 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  gap: 0px;
+  font-family: roboto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .checkout-container {
+    width: 100%;
+  }
+}
+
+.checkout-container h1 {
+  font-size: 20px;
+  color: #616e7c;
+}
+
+.checkout-container h1 span {
+  color: black;
+  margin-bottom: 0px;
+}
+
+.checkout-container p {
+  color: #616e7c;
+  margin-top: 0px;
+}
+
+.checkout-container button {
+  border: none;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .checkout-container h1 {
+    align-self: flex-end;
+  }
+
+  .checkout-container p {
+    align-self: flex-end;
+  }
+}
+
+.remove-all-button {
+  color: #0b69ff;
+  align-self: flex-end;
+  font-size: 18px;
+  font-family: roboto;
+  cursor: pointer;
+  font-weight: bold;
+}
